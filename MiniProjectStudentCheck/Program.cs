@@ -39,8 +39,5 @@ switch (inputValid)
 }
 
 
-
-
-
-// 
+// if (something true) { //do something // return;}  this will exit the Main function
 
