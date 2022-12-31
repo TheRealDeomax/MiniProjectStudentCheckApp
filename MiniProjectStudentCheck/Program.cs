@@ -18,11 +18,13 @@ switch (inputValid)
         
             if ( ((name.ToLower() == "sue") || (name.ToLower() == "bob") ) && age >= 21 )
                     {
-                Console.WriteLine(value:"Welcome to the class Profressor!");
+            // if their name is Bob or Sue address them as Profrerssor, otherwise address them by nameConsole.WriteLine(value: "Your age is invalid. I'm sorry.  You cannot attend.");
+            Console.WriteLine(value:"Welcome to the class Profressor!");
             }
             else if (age < 21)
             {
-                Console.WriteLine(value:$"I'm sorry. You must wait {21 - age} to attend.");
+            // if the person is under 21, recommend they wait X years until their 21 to start this class
+            Console.WriteLine(value:$"I'm sorry. You must wait {21 - age} years to attend.");
             }
             else
             {
@@ -38,7 +40,7 @@ switch (inputValid)
 
 
 
-// if their name is Bob or Sue address them as Profrerssor, otherwise address them by name
-// if the person is under 21, recommend they wait X years until their 21 to start this class
+
+
 // 
 
